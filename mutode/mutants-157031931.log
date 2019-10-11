@@ -1,0 +1,41 @@
+MUTANT 1:	RAEM src/app.module.js Line 1:	`const app = angular.module('robobar', ['ngRoute']);` > `const app = angular.module('robobar', []);'`
+MUTANT 2:	RFCAM src/app.module.js Line 1:	`const app = angular.module('robobar', ['ngRoute']);` > `const app = angular.module(['ngRoute']);'`
+MUTANT 3:	RFCAM src/app.module.js Line 1:	`const app = angular.module('robobar', ['ngRoute']);` > `const app = angular.module('robobar');'`
+MUTANT 4:	RFCAM src/app.module.js Line 2:	`app.value('localStorage', window.localStorage);` > `app.value(window.localStorage);'`
+MUTANT 5:	RFCAM src/app.module.js Line 2:	`app.value('localStorage', window.localStorage);` > `app.value('localStorage');'`
+MUTANT 6:	RLM Commented line 1:	const app = angular.module('robobar', ['ngRoute']);
+MUTANT 7:	RLM Commented line 2:	app.value('localStorage', window.localStorage);
+MUTANT 8:	SLM src/app.module.js Line 1:	`const app = angular.module('robobar', ['ngRoute']);` > `const app = angular.module('', ['ngRoute']);'`
+MUTANT 9:	SLM src/app.module.js Line 1:	`const app = angular.module('robobar', ['ngRoute']);` > `const app = angular.module('44vVTv1', ['ngRoute']);'`
+MUTANT 10:	SLM src/app.module.js Line 1:	`const app = angular.module('robobar', ['ngRoute']);` > `const app = angular.module('robobar', ['']);'`
+MUTANT 11:	SLM src/app.module.js Line 1:	`const app = angular.module('robobar', ['ngRoute']);` > `const app = angular.module('robobar', ['bIqzoeS']);'`
+MUTANT 12:	SLM src/app.module.js Line 2:	`app.value('localStorage', window.localStorage);` > `app.value('', window.localStorage);'`
+MUTANT 13:	SLM src/app.module.js Line 2:	`app.value('localStorage', window.localStorage);` > `app.value('nJ7oUcMgs9sW', window.localStorage);'`
+MUTANT 14:	RFCAM src/routes.js Line 2:	`app.config(($routeProvider) => {` > `app.config(pp.config(($routeProvider) => {'`
+MUTANT 15:	RFCAM src/routes.js Line 13:	`.otherwise({` > `.otherwise(otherwise({'`
+MUTANT 16:	RFCAM src/routes.js Line 10:	`.when('/success', {` > `.when({'`
+MUTANT 17:	RFCAM src/routes.js Line 10:	`.when('/success', {` > `.when('/success'when('/success', {'`
+MUTANT 18:	RFCAM src/routes.js Line 7:	`.when('/review', {` > `.when({'`
+MUTANT 19:	RFCAM src/routes.js Line 7:	`.when('/review', {` > `.when('/review'when('/review', {'`
+MUTANT 20:	RFCAM src/routes.js Line 4:	`.when('/', {` > `.when({'`
+MUTANT 21:	RFCAM src/routes.js Line 4:	`.when('/', {` > `.when('/'when('/', {'`
+MUTANT 22:	RFM Lines 1-17: Commented function (anonymous / assigned)
+MUTANT 23:	RFM Lines 2-16: Commented function (anonymous / assigned)
+MUTANT 24:	ROPM src/routes.js Line 5:	`template: '<robo-place-order></robo-place-order>'` > `'`
+MUTANT 25:	ROPM src/routes.js Line 8:	`template: '<robo-review-order></robo-review-order>'` > `'`
+MUTANT 26:	ROPM src/routes.js Line 11:	`template: '<robo-success></robo-success>'` > `'`
+MUTANT 27:	ROPM src/routes.js Line 14:	`redirectTo: '/'` > `'`
+MUTANT 28:	SLM src/routes.js Line 4:	`.when('/', {` > `.when('', {'`
+MUTANT 29:	SLM src/routes.js Line 4:	`.when('/', {` > `.when('T', {'`
+MUTANT 30:	SLM src/routes.js Line 5:	`template: '<robo-place-order></robo-place-order>'` > `template: '''`
+MUTANT 31:	SLM src/routes.js Line 5:	`template: '<robo-place-order></robo-place-order>'` > `template: 'OzsJ75Pcfq2OWsrhGLS3G4xx741Ia5281Zc1f''`
+MUTANT 32:	SLM src/routes.js Line 7:	`.when('/review', {` > `.when('', {'`
+MUTANT 33:	SLM src/routes.js Line 7:	`.when('/review', {` > `.when('NBx1rxX', {'`
+MUTANT 34:	SLM src/routes.js Line 8:	`template: '<robo-review-order></robo-review-order>'` > `template: '''`
+MUTANT 35:	SLM src/routes.js Line 8:	`template: '<robo-review-order></robo-review-order>'` > `template: 'OrS9Q9aRp6hXdHFw1gkslKan214NfZbw3h34Fao''`
+MUTANT 36:	SLM src/routes.js Line 10:	`.when('/success', {` > `.when('', {'`
+MUTANT 37:	SLM src/routes.js Line 10:	`.when('/success', {` > `.when('ahWT6C3T', {'`
+MUTANT 38:	SLM src/routes.js Line 11:	`template: '<robo-success></robo-success>'` > `template: '''`
+MUTANT 39:	SLM src/routes.js Line 11:	`template: '<robo-success></robo-success>'` > `template: 'yDTVpfKK8Pc6NKxda17SBfhWaQFmZ''`
+MUTANT 40:	SLM src/routes.js Line 14:	`redirectTo: '/'` > `redirectTo: '''`
+MUTANT 41:	SLM src/routes.js Line 14:	`redirectTo: '/'` > `redirectTo: 'T''`

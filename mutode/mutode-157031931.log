@@ -1,0 +1,53 @@
+Mutode 157031931 running
+Creating a copy of your module... Done
+Loading mutators... Done
+Verifying and timing your test suite
+Took 1.94 seconds to run full test suite
+Running mutants for src/app.module.js
+MUTANT 1:	RAEM Line 1:	const app = angular.module('robobar', ['ngRoute']);[]);	killed 1908 ms
+MUTANT 2:	RFCAM Line 1:	const app = angular.module('robobar', ['(['ngRoute']);	killed 1890 ms
+MUTANT 3:	RFCAM Line 1:	const app = angular.module('robobar', ['ngRoute']);');	killed 1849 ms
+MUTANT 4:	RFCAM Line 2:	app.value('localStorage', (window.localStorage);	killed 1887 ms
+MUTANT 5:	RFCAM Line 2:	app.value('localStorage', window.localStorage);');	killed 1901 ms
+MUTANT 6:	RLM Commented line 1:	const app = angular.module('robobar', ['ngRoute']);	killed 1938 ms
+MUTANT 7:	RLM Commented line 2:	app.value('localStorage', window.localStorage);	killed 2064 ms
+MUTANT 8:	SLM Line 1:	const app = angular.module('robobar',('', ['ngRoute']);...	killed 1851 ms
+MUTANT 9:	SLM Line 1:	const app = angular.module('robobar44vVTv1', ['ngRoute']);...	killed 1863 ms
+MUTANT 10:	SLM Line 1:	const app = angular.module('robobar', ['ngRoute']);['']);...	killed 1845 ms
+MUTANT 11:	SLM Line 1:	const app = angular.module('robobar', ['ngRoutebIqzoeS']);...	killed 1864 ms
+MUTANT 12:	SLM Line 2:	app.value('localStorage',('', window.localStorage);...	killed 1996 ms
+MUTANT 13:	SLM Line 2:	app.value('localStoragenJ7oUcMgs9sW', window.localStorage);...	killed 1968 ms
+
+Running mutants for src/routes.js
+MUTANT 14:	RFCAM Line 2:	app.config(pp.config(($routeProvider) => {	killed 1810 ms
+MUTANT 15:	RFCAM Line 13:	.otherwise(otherwise({	killed 1905 ms
+MUTANT 16:	RFCAM Line 10:	.when('/success', {({	killed 1970 ms
+MUTANT 17:	RFCAM Line 10:	.when('/success'when('/success', {	killed 1908 ms
+MUTANT 18:	RFCAM Line 7:	.when('/review', {({	killed 1811 ms
+MUTANT 19:	RFCAM Line 7:	.when('/review'when('/review', {	killed 1926 ms
+MUTANT 20:	RFCAM Line 4:	.when('/', {({	killed 1891 ms
+MUTANT 21:	RFCAM Line 4:	.when('/'when('/', {	killed 1926 ms
+MUTANT 22:	RFM Lines 1-17: Commented function (anonymous / assigned)	survived 1950 ms
+MUTANT 23:	RFM Lines 2-16: Commented function (anonymous / assigned)	survived 1930 ms
+MUTANT 24:	ROPM Line 5:	template: '<robo-place-order></robo-place-order>'	survived 1983 ms
+MUTANT 25:	ROPM Line 8:	template: '<robo-review-order></robo-review-order>'	survived 1867 ms
+MUTANT 26:	ROPM Line 11:	template: '<robo-success></robo-success>'	survived 1909 ms
+MUTANT 27:	ROPM Line 14:	redirectTo: '/'	survived 1919 ms
+MUTANT 28:	SLM Line 4:	.when('/',('', {...	survived 1917 ms
+MUTANT 29:	SLM Line 4:	.when('/',('T', {...	survived 1978 ms
+MUTANT 30:	SLM Line 5:	template: '<robo-place-order></robo-place-order>'''...	survived 1939 ms
+MUTANT 31:	SLM Line 5:	template: '<robo-place-order></robo-place-order>''OzsJ75Pcfq2OWsrhGLS3G4xx741Ia5281Zc1f'...	survived 1930 ms
+MUTANT 32:	SLM Line 7:	.when('/review',('', {...	survived 1845 ms
+MUTANT 33:	SLM Line 7:	.when('/review('NBx1rxX', {...	survived 1882 ms
+MUTANT 34:	SLM Line 8:	template: '<robo-review-order></robo-review-order>'''...	survived 1958 ms
+MUTANT 35:	SLM Line 8:	template: '<robo-review-order></robo-review-order>''OrS9Q9aRp6hXdHFw1gkslKan214NfZbw3h34Fao'...	survived 1994 ms
+MUTANT 36:	SLM Line 10:	.when('/success',('', {...	survived 1903 ms
+MUTANT 37:	SLM Line 10:	.when('/success('ahWT6C3T', {...	survived 1882 ms
+MUTANT 38:	SLM Line 11:	template: '<robo-success></robo-success>'''...	survived 1912 ms
+MUTANT 39:	SLM Line 11:	template: '<robo-success></robo-success>''yDTVpfKK8Pc6NKxda17SBfhWaQFmZ'...	survived 1857 ms
+MUTANT 40:	SLM Line 14:	redirectTo: '/'''...	survived 1849 ms
+MUTANT 41:	SLM Line 14:	redirectTo: '/''T'...	survived 1919 ms
+
+Running mutants for src/place-order-component/place-order-component.html
+Couldn't parse AST for file src/place-order-component/place-order-component.html
+Deleting copies...Done
